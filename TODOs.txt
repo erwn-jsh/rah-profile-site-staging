@@ -35,12 +35,12 @@ Redo repo
 Added seo.js
 make favicon
 	- consider using --force
+make svgs responsive
 
 TODO
 make transitions
 	- use the web unlocked video as reference
 	- minimize expenditure
-make svgs responsive
 modify text animations 
 make site responsive
 

@@ -18,6 +18,11 @@ const LogoContainer = styled.div`
     height: auto;
     bottom: 0;
   }
+
+  @media only screen and (max-width: 768px) {
+    width: 276px;
+    height: 172px;
+  }
 `;
 
 const Logo = () => {
