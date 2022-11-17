@@ -24,6 +24,32 @@ const AboutSectionTextWrapper = styled.div`
     color: #ffffff;
     font-weight: 100;
     line-height: 3rem;
+    text-align: justify;
+    text-justify: inter-word;
+  }
+
+  @media only screen and (max-width: 768px) {
+    h2 {
+      font-size: 2rem;
+    }
+  }
+
+  @media only screen and (max-width: 520px) {
+    h2 {
+      font-size: 1rem;
+    }
+
+    p {
+      font-size: 1.2rem;
+      line-height: 1.5rem;
+    }
+  }
+
+  @media only screen and (max-width: 400px) {
+    h2 {
+      font-size: 1rem;
+      letter-spacing: 1rem;
+    }
   }
 `;
 
