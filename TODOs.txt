@@ -1,0 +1,46 @@
+COMPLETED
+Round Menu Buttons 5px 
+Make animated arrow smaller = big as + on menu
+@robertandrewhiyas
+magazine feature on marquee -> 
+						Mega Magazine November 3 2021	
+						Nylon January 2, 2021
+Solid Facebook Icon - not recommended, looks amateurish
+https://instagram.com/robertandrewhiyas?igshid=YmMyMTA2M2Y=
+https://www.facebook.com/robertandrewhiyas
+Collections 
+Change link to onHover title of the collection shows up 
+Refer to https://estromcreative.com/home
+*Change title -> style as footnote make it smaller 
+Collections direction to row 
+Smaller Contact Section
+	- no logo
+	- substitute Gmail for GMAIL Icon
+Pulse
+Modify Side text so that it follows you down 
+Menu buttons radius 5px
+Change transfigure main image
+Change external icons to text on main
+Menu button disappear while scrolling -> decided to remove them altogether on PC
+Make collections image same as landing image 
+Make Icons smaller if thickness not changeable, else make icon thickness thinner
+Make Store coming page
+Collections 
+Add You May Also Like Section Beneath Collection
+Refer to https://estromcreative.com/stanley-watts
+Use Magazine Images
+
+TODO
+Redo repo
+	- make another copy of project
+	- in new copy do the animations
+make transitions
+	- use the web unlocked video as reference
+	- minimize expenditure
+make favicon
+	- consider using --force
+make svgs responsive
+modify text animations 
+
+Change Marquee Font -> Pending || Leiko 
+Suggest font change -> proxima nova
