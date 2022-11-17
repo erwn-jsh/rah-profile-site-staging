@@ -74,6 +74,24 @@ const ContactSectionTextWrapper = styled.div`
       }
     }
   }
+
+  @media only screen and (max-width: 768px) {
+    h2 {
+      font-size: 2rem;
+    }
+  }
+
+  @media only screen and (max-width: 520px) {
+    h2 {
+      font-size: 1rem;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 1rem;
+      line-height: 1.5rem;
+    }
+  }
 `;
 
 const externalLinks = [
