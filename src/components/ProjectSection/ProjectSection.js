@@ -33,6 +33,25 @@ const ProjectSect = styled.section`
     line-height: 5rem;
     margin-top: 200px;
   }
+
+  @media only screen and (max-width: 768px) {
+    h2 {
+      font-size: 2rem;
+    }
+  }
+
+  @media only screen and (max-width: 520px) {
+    h2 {
+      font-size: 1rem;
+    }
+  }
+
+  @media only screen and (max-width: 400px) {
+    h2 {
+      font-size: 1rem;
+      letter-spacing: 1rem;
+    }
+  }
 `;
 
 const ProjectsWrapper = styled.div`
@@ -99,6 +118,22 @@ const Project = styled.div`
 
   @media only screen and (max-width: 768px) {
     width: 100%;
+
+    h4 {
+      font-size: 2rem;
+    }
+  }
+
+  @media only screen and (max-width: 520px) {
+    h4 {
+      font-size: 1rem;
+    }
+  }
+
+  @media only screen and (max-width: 400px) {
+    h4 {
+      font-size: 1rem;
+    }
   }
 `;
 
