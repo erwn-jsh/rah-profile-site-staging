@@ -10,7 +10,20 @@ const MarqueeContainer = styled.section`
     font-family: "Roboto Slab", sans-serif;
     text-transform: uppercase;
     letter-spacing: 0.8rem;
-    line-height: 7.5rem;
+    /* line-height: 7.5rem; */
+  }
+
+  @media only screen and (max-width: 768px) {
+    h3 {
+      font-size: 5rem;
+    }
+  }
+
+  @media only screen and (max-width: 520px) {
+    h3 {
+      font-size: 3rem;
+      letter-spacing: 0rem;
+    }
   }
 `;
 

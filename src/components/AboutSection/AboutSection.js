@@ -28,6 +28,20 @@ const MarqueeContainer = styled.section`
     text-transform: uppercase;
     letter-spacing: 0.8rem;
   }
+
+  @media only screen and (max-width: 768px) {
+    h3 {
+      font-size: 5rem;
+    }
+  }
+
+  @media only screen and (max-width: 520px) {
+    h3 {
+      font-size: 3rem;
+      letter-spacing: 0rem;
+    }
+  }
+ 
 `;
 
 const AboutSection = () => {
