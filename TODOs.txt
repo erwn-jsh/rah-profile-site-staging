@@ -29,18 +29,20 @@ Collections
 Add You May Also Like Section Beneath Collection
 Refer to https://estromcreative.com/stanley-watts
 Use Magazine Images
-
-TODO
 Redo repo
 	- make another copy of project
 	- in new copy do the animations
+Added seo.js
+make favicon
+	- consider using --force
+
+TODO
 make transitions
 	- use the web unlocked video as reference
 	- minimize expenditure
-make favicon
-	- consider using --force
 make svgs responsive
 modify text animations 
+make site responsive
 
 Change Marquee Font -> Pending || Leiko 
 Suggest font change -> proxima nova
