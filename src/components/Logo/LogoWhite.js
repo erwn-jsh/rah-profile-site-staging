@@ -20,8 +20,13 @@ const LogoContainer = styled.div`
   }
 
   @media only screen and (max-width: 768px) {
-    width: 276px;
-    height: 172px;
+    width: 414px;
+    height: 258px;
+  }
+
+  @media only screen and (max-width: 625px) {
+    top: 100px;
+    left: 80px;
   }
 `;
 

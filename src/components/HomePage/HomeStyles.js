@@ -24,6 +24,59 @@ export const FirstNameContainer = styled(motion.div)`
     letter-spacing: 1.5rem;
     line-height: 5rem;
   }
+
+  @media only screen and (max-width: 1220px) {
+    h1 {
+      margin-bottom: 5vh;
+      font-size: 3rem;
+      letter-spacing: 1.5rem;
+      line-height: 5rem;
+      max-width: 100vw;
+    }
+  }
+
+  @media only screen and (max-width: 850px) {
+    h1 {
+      margin-bottom: 10vh;
+      font-size: 3rem;
+      letter-spacing: 1.5rem;
+      line-height: 5rem;
+      max-width: 100vw;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    bottom: 75px;
+    left: 20px;
+    h1 {
+      font-size: 2rem;
+      letter-spacing: 1.5rem;
+      line-height: 2rem;
+      max-width: 100vw;
+    }
+  }
+
+  @media only screen and (max-width: 645px) {
+    bottom: 0;
+    left: 20px;
+    h1 {
+      font-size: 1.2rem;
+      letter-spacing: 1.5rem;
+      max-width: 100vw;
+      line-height: 4rem;
+    }
+  }
+
+  @media only screen and (max-width: 625px) {
+    bottom: 25%;
+    left: 18%;
+    h1 {
+      font-size: 1.2rem;
+      letter-spacing: 1.5rem;
+      max-width: 100vw;
+      line-height: 0;
+    }
+  }
 `;
 
 export const SecondNameContainer = styled(motion.div)`
@@ -42,6 +95,68 @@ export const SecondNameContainer = styled(motion.div)`
 
     letter-spacing: 1.5rem;
     line-height: 5rem;
+  }
+
+  @media only screen and (max-width: 1220px) {
+    h1 {
+      font-size: 3rem;
+      letter-spacing: 1.5rem;
+      line-height: 2rem;
+      max-width: 100vw;
+    }
+  }
+
+  @media only screen and (max-width: 850px) {
+    h1 {
+      font-size: 3rem;
+      letter-spacing: 1.5rem;
+      line-height: 2.8rem;
+      max-width: 100vw;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    bottom: 0;
+    left: 20px;
+    h1 {
+      font-size: 2rem;
+      letter-spacing: 1.5rem;
+      max-width: 100vw;
+      line-height: 5rem;
+    }
+  }
+
+  @media only screen and (max-width: 645px) {
+    bottom: 0;
+    left: 20px;
+    h1 {
+      font-size: 1.2rem;
+      letter-spacing: 1.5rem;
+      max-width: 100vw;
+      line-height: 0;
+    }
+  }
+
+  @media only screen and (max-width: 625px) {
+    bottom: 18%;
+    left: 1%;
+    /* width: 100%; */
+    h1 {
+      font-size: 1.2rem;
+      letter-spacing: 1.5rem;
+      line-height: 0;
+    }
+  }
+
+  @media only screen and (max-width: 500px) {
+    bottom: 18%;
+    left: 0;
+    width: 100vw;
+    h1 {
+      font-size: 5px;
+      letter-spacing: 0;
+      line-height: 0;
+    }
   }
 `;
 
@@ -63,5 +178,25 @@ export const Header = styled(motion.div)`
     letter-spacing: 0.2rem;
     text-align: right;
     padding-top: 0.8vh;
+  }
+
+  @media only screen and (max-width: 990px) {
+    p {
+      font-size: 1.2rem;
+      line-height: 2rem;
+      letter-spacing: 0.2rem;
+    }
+  }
+
+  @media only screen and (max-width: 890px) {
+    p {
+      font-size: 1rem;
+      line-height: 1rem;
+      letter-spacing: 0.2rem;
+    }
+  }
+
+  @media only screen and (max-width: 850px) {
+    display: none;
   }
 `;
