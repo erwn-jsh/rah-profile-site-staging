@@ -44,6 +44,136 @@ const OpeningSection = styled.section`
       letter-spacing: 1.5rem;
     }
   }
+
+  @media only screen and (max-width: 1300px) {
+    padding-bottom: 100px;
+
+    div {
+      p {
+        padding-right: 70px;
+        padding-left: 50px;
+        font-size: 1.2rem;
+        line-height: 1.6rem;
+      }
+      h2 {
+        letter-spacing: 1.1rem;
+        font-size: 1rem;
+      }
+    }
+  }
+  @media only screen and (max-width: 1100px) {
+    div {
+      h2 {
+        font-size: 1rem;
+      }
+    }
+  }
+  @media only screen and (max-width: 1000px) {
+    div {
+      p {
+        padding-right: 70px;
+        padding-left: 50px;
+        font-size: 1rem;
+        line-height: 1.6rem;
+      }
+      h2 {
+        font-size: 1rem;
+        letter-spacing: 0.8rem;
+      }
+    }
+  }
+  @media only screen and (max-width: 900px) {
+    img {
+      width: 50%;
+      object-fit: cover;
+    }
+
+    div {
+      p {
+        padding-right: 50px;
+        padding-left: 50px;
+        font-size: 1rem;
+        line-height: 1.2rem;
+      }
+      h2 {
+        font-size: 1rem;
+      }
+    }
+  }
+  @media only screen and (max-width: 800px) {
+    div {
+      p {
+        padding-right: 30px;
+        padding-left: 30px;
+        font-size: 1rem;
+        line-height: 1.2rem;
+      }
+      h2 {
+        padding-left: 30px;
+        font-size: 1rem;
+      }
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    img {
+      width: 40%;
+      object-fit: cover;
+    }
+    div {
+      p {
+        padding-right: 30px;
+        padding-left: 30px;
+        font-size: 1rem;
+        line-height: 1.2rem;
+      }
+      h2 {
+        padding-left: 30px;
+        font-size: 1rem;
+      }
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    img {
+      width: 35%;
+      object-fit: cover;
+    }
+
+    div {
+      p {
+        padding-right: 30px;
+        padding-left: 15px;
+        font-size: 1rem;
+        line-height: 1.2rem;
+      }
+      h2 {
+        padding-left: 15px;
+        font-size: 1rem;
+        letter-spacing: 0.66rem;
+      }
+    }
+  }
+  @media only screen and (max-width: 500px) {
+    img {
+      display: none;
+    }
+
+    div {
+      padding-top: 50px;
+      margin-bottom: 600px;
+
+      p {
+        padding-right: 60px;
+        padding-left: 60px;
+        font-size: 1.2rem;
+        line-height: 1.6rem;
+      }
+      h2 {
+        padding-left: 60px;
+        font-size: 1rem;
+        letter-spacing: 0.4rem;
+      }
+    }
+  }
 `;
 
 const Footer = styled.section`

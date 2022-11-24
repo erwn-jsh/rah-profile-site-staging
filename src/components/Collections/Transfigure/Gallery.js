@@ -38,6 +38,32 @@ const GallerySection = styled.section`
   img:nth-of-type(14) {
     width: 66%;
   }
+
+  @media only screen and (max-width: 768px) {
+    padding-right: 40px;
+    padding-left: 40px;
+    img {
+      width: 50%;
+    }
+
+    img:nth-of-type(14) {
+      width: 50%;
+      object-fit: cover;
+    }
+  }
+
+  @media only screen and (max-width: 500px) {
+    padding-right: 0;
+    padding-left: 0;
+    img {
+      width: 100%;
+    }
+
+    img:nth-of-type(14) {
+      width: 100%;
+      object-fit: cover;
+    }
+  }
 `;
 
 const Gallery = () => {
