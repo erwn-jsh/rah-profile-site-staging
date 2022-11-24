@@ -23,6 +23,41 @@ export const MenuNavContainer = styled.div`
   justify-content: space-between;
 
   width: calc(90vw - 260px);
+
+  img {
+    max-height: 375px;
+    max-width: 375px;
+  }
+
+  @media only screen and (max-width: 1100px) {
+    img {
+      margin-top: 40px;
+      max-height: 300px;
+      max-width: 300px;
+    }
+  }
+  @media only screen and (max-width: 1000px) {
+    img {
+      margin-top: 100px;
+      max-height: 200px;
+      max-width: 200px;
+    }
+  }
+  @media only screen and (max-width: 900px) {
+    img {
+      display: none;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    left: 150px;
+  }
+  @media only screen and (max-width: 600px) {
+    left: 50px;
+    width: 90vw;
+  }
+  @media only screen and (max-width: 500px) {
+    left: 20px;
+  }
 `;
 export const InternalNavLinks = styled.div`
   li {
@@ -48,6 +83,21 @@ export const InternalNavLinks = styled.div`
       a {
         font-weight: 400;
       }
+    }
+
+    @media only screen and (max-width: 768px) {
+      a {
+        font-size: 44px;
+        line-height: 1.3em;
+      }
+    }
+    @media only screen and (max-width: 600px) {
+      a {
+        font-size: 36px;
+        line-height: 1em;
+      }
+    }
+    @media only screen and (max-width: 500px) {
     }
   }
 `;

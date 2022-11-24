@@ -66,10 +66,6 @@ const MenuContent = () => {
             </NavLinkWrapper>
             <img
               src={logo}
-              style={{
-                maxHeight: "375px",
-                maxWidth: "375px",
-              }}
             />
           </MenuNavContainer>
         </MenuInside>
