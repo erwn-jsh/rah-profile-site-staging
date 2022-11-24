@@ -34,9 +34,40 @@ export const Gallery = styled.section`
   padding-right: 200px;
   padding-left: 200px;
 
+  transition: all 0.5s;
+
   img {
     height: 100vh;
     object-fit: fit;
+  }
+
+  @media only screen and (max-width: 1300px) {
+    padding-right: 200px;
+    padding-left: 100px;
+
+    img {
+      width: 100vw;
+      object-fit: contain;
+    }
+  }
+  @media only screen and (max-width: 1100px) {
+    padding-right: 0;
+    padding-left: 0;
+    img {
+      width: 100vw;
+      object-fit: contain;
+    }
+  }
+
+  @media only screen and (max-width: 1000px) {
+    padding-right: 10px;
+    padding-left: 10px;
+    img {
+      width: 100vw;
+      object-fit: contain;
+    }
+  }
+  @media only screen and (max-width: 500px) {
   }
 `;
 
