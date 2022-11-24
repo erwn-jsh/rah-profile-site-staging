@@ -31,6 +31,31 @@ const LandingSection = styled.section`
     font-family: "Josefin Sans", sans-serif;
     letter-spacing: 1.5rem;
   }
+
+  @media only screen and (max-width: 1100px) {
+    h1 {
+      font-size: 1rem;
+    }
+  }
+  @media only screen and (max-width: 1000px) {
+    h1 {
+      font-size: 1rem;
+      letter-spacing: 1rem;
+    }
+  }
+  @media only screen and (max-width: 900px) {
+    h1 {
+      top: 350px;
+      left: 100px;
+      font-size: 1rem;
+      letter-spacing: 1rem;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    h1 {
+      display: none;
+    }
+  }
 `;
 
 const Landing = () => {
