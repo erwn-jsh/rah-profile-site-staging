@@ -104,13 +104,7 @@ const MenuContent = () => {
                 ))}
               </ExternalNavLinks>
             </NavLinkWrapper>
-            <img
-              src={logo}
-              style={{
-                maxHeight: "375px",
-                maxWidth: "375px",
-              }}
-            />
+            <img src={logo} />
           </MenuNavContainer>
         </MenuInside>
       </MenuHolder>
