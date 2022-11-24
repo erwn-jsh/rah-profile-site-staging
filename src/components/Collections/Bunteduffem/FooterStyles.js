@@ -16,6 +16,21 @@ export const ContactSection = styled.section`
     font-weight: 400;
     font-family: "Josefin Sans", sans-serif;
   }
+
+  @media only screen and (max-width: 768px) {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+  @media only screen and (max-width: 520px) {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  @media only screen and (max-width: 400px) {
+    padding-left: 0;
+    padding-right: 0;
+  }
 `;
 
 export const ContactIconsWrapper = styled(motion.div)`

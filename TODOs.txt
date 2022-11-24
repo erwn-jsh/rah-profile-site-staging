@@ -43,6 +43,12 @@ make transitions
 	- minimize expenditure
 modify text animations 
 make site responsive
+	- home partially completed
+	- KNJ done
+	- Pulse 
+	- Bunteduffem
+	- Transfigure
+	- Both Menus
 
 Change Marquee Font -> Pending || Leiko 
 Suggest font change -> proxima nova

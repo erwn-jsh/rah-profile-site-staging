@@ -23,6 +23,36 @@ const RecommendationsSection = styled.section`
     letter-spacing: 1.5rem;
     line-height: 5rem;
   }
+
+  @media only screen and (max-width: 768px) {
+    padding-right: 80px;
+    padding-left: 80px;
+
+    h2 {
+      font-size: 2rem;
+      line-height: 3rem;
+    }
+  }
+
+  @media only screen and (max-width: 520px) {
+    padding-right: 40px;
+    padding-left: 40px;
+
+    h2 {
+      font-size: 1rem;
+    }
+  }
+
+  @media only screen and (max-width: 400px) {
+    h2 {
+      font-size: 1rem;
+      letter-spacing: 0.5rem;
+      line-height: 1.2rem;
+    }
+    padding-bottom: 0;
+    padding-right: 0;
+    padding-left: 0;
+  }
 `;
 
 const RecsWrapper = styled.div`
@@ -84,6 +114,26 @@ const Recommendation = styled.div`
       h4 {
         text-align: center;
       }
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    width: 100%;
+
+    h4 {
+      font-size: 2rem;
+    }
+  }
+
+  @media only screen and (max-width: 520px) {
+    h4 {
+      font-size: 1rem;
+    }
+  }
+
+  @media only screen and (max-width: 400px) {
+    h4 {
+      font-size: 1rem;
     }
   }
 `;
