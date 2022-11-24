@@ -38,10 +38,6 @@ make favicon
 make svgs responsive
 
 TODO
-make transitions
-	- use the web unlocked video as reference
-	- minimize expenditure
-modify text animations 
 make site responsive
 	- home partially completed
 	- KNJ done
@@ -49,6 +45,12 @@ make site responsive
 	- Bunteduffem not quite - suggest splitting each page into 2
 	- Transfigure
 	- Both Menus
+secure domain
+deploy
 
 Change Marquee Font -> Pending || Leiko 
 Suggest font change -> proxima nova
+make transitions
+	- use the web unlocked video as reference
+	- minimize expenditure
+modify text animations 
