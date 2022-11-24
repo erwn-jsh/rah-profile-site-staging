@@ -41,7 +41,7 @@ TODO
 make site responsive
 	- home partially completed
 	- KNJ done
-	- Pulse 
+	- Pulse done 
 	- Bunteduffem not quite - suggest splitting each page into 2
 	- Transfigure
 	- Both Menus

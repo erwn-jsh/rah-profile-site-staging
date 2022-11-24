@@ -43,6 +43,62 @@ const LandingSection = styled.section`
       font-weight: bold;
     }
   }
+
+  @media only screen and (max-width: 1100px) {
+    img {
+      height: 100vh;
+      object-fit: cover;
+      margin-left: 100px;
+      margin-right: 100px;
+    }
+
+    p {
+      margin-right: 220px;
+      margin-left: 220px;
+    }
+  }
+  @media only screen and (max-width: 1000px) {
+    img {
+      height: 100vh;
+      object-fit: cover;
+      margin-left: 50px;
+      margin-right: 50px;
+    }
+
+    p {
+      margin-right: 120px;
+      margin-left: 120px;
+    }
+  }
+  @media only screen and (max-width: 900px) {
+    img {
+      height: 100vh;
+      object-fit: cover;
+      margin-left: 0;
+      margin-right: 0;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    img {
+      width: 100vw;
+      object-fit: contain;
+      margin-left: 0;
+      margin-right: 0;
+    }
+
+    p {
+      margin-right: 80px;
+      margin-left: 80px;
+    }
+  }
+  @media only screen and (max-width: 500px) {
+    p {
+      margin-top: 100px;
+      margin-right: 40px;
+      margin-left: 40px;
+    }
+  }
 `;
 
 const Landing = () => {
