@@ -88,7 +88,7 @@ export const FirstNameContainer = styled(motion.div)`
       margin-right: auto;
       left: 0;
       right: 0;
-      width: 100vw;
+      max-width: 70vw;
       line-height: 0;
     }
   }
@@ -212,6 +212,7 @@ export const SecondNameContainer = styled(motion.div)`
       right: 0;
       width: 100vw;
       line-height: 0;
+      max-width: 80vw;
     }
   }
 
