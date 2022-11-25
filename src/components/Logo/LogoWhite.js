@@ -1,8 +1,10 @@
 import React, { useEffect, useRef } from "react";
 import styled from "styled-components";
 
-import DrawSVGPlugin from "gsap-trial/DrawSVGPlugin";
-import gsap from "gsap-trial";
+// import DrawSVGPlugin from "gsap-trial/DrawSVGPlugin";
+import DrawSVGPlugin from "gsap/DrawSVGPlugin";
+// import gsap from "gsap-trial";
+// import gsap from "gsap";
 
 // Styled Components
 const LogoContainer = styled.div`
