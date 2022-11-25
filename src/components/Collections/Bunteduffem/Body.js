@@ -67,7 +67,14 @@ export const Gallery = styled.section`
       object-fit: contain;
     }
   }
-  @media only screen and (max-width: 500px) {
+
+  @media only screen and (max-width: 768px) {
+    padding-right: 10px;
+    padding-left: 10px;
+    img {
+      width: 100vw;
+      object-fit: contain;
+    }
   }
 `;
 
