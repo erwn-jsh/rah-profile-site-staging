@@ -39,12 +39,12 @@ make svgs responsive
 
 TODO
 make site responsive
-	- home partially completed
+	- home done
+	- Bunteduffem not quite - suggest splitting each page into 2
 	- KNJ done
 	- Pulse done 
-	- Bunteduffem not quite - suggest splitting each page into 2
-	- Transfigure - finished
-	- Both Menus
+	- Transfigure - done
+	- Both Menus - done
 secure domain
 deploy
 

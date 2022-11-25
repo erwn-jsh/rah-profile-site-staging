@@ -28,6 +28,30 @@ const LogoContainer = styled.div`
     top: 100px;
     left: 80px;
   }
+
+  @media only screen and (max-width: 600px) {
+    top: 100px;
+    left: 50px;
+  }
+
+  @media only screen and (max-width: 550px) {
+    top: 100px;
+    left: 25px;
+  }
+
+  @media only screen and (max-width: 500px) {
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+  }
+
+  @media only screen and (max-width: 500px) {
+    top: 30%;
+    width: 276px;
+    height: 172px;
+  }
 `;
 
 const Logo = () => {

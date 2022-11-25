@@ -77,6 +77,60 @@ export const FirstNameContainer = styled(motion.div)`
       line-height: 0;
     }
   }
+
+  @media only screen and (max-width: 600px) {
+    bottom: 25%;
+    left: 18%;
+    h1 {
+      font-size: 1.2rem;
+      letter-spacing: 1rem;
+      margin-left: auto;
+      margin-right: auto;
+      left: 0;
+      right: 0;
+      width: 100vw;
+      line-height: 0;
+    }
+  }
+
+  @media only screen and (max-width: 450px) {
+    bottom: 25%;
+    /* left: 18%; */
+    h1 {
+      font-size: 1.2rem;
+      letter-spacing: 0.75rem;
+      margin-left: auto;
+      margin-right: auto;
+      left: 0;
+      right: 0;
+      width: 100vw;
+      line-height: 0;
+    }
+  }
+
+  @media only screen and (max-width: 420px) {
+    bottom: 25%;
+    /* left: 18%; */
+    h1 {
+      font-size: 1rem;
+      letter-spacing: 0.75rem;
+      margin-left: auto;
+      margin-right: auto;
+      left: 0;
+      right: 0;
+    }
+  }
+
+  @media only screen and (max-width: 400px) {
+    margin-left: auto;
+    margin-right: auto;
+    left: 10%;
+    right: 0;
+    h1 {
+      font-size: 1rem;
+      letter-spacing: 0.75rem;
+    }
+  }
 `;
 
 export const SecondNameContainer = styled(motion.div)`
@@ -138,8 +192,8 @@ export const SecondNameContainer = styled(motion.div)`
   }
 
   @media only screen and (max-width: 625px) {
-    bottom: 18%;
-    left: 1%;
+    /* bottom: 18%;
+    left: 1%; */
     /* width: 100%; */
     h1 {
       font-size: 1.2rem;
@@ -147,15 +201,48 @@ export const SecondNameContainer = styled(motion.div)`
       line-height: 0;
     }
   }
+  @media only screen and (max-width: 600px) {
+    top: 70%;
+    h1 {
+      font-size: 1rem;
+      letter-spacing: 1rem;
+      margin-left: auto;
+      margin-right: auto;
+      left: 0;
+      right: 0;
+      width: 100vw;
+      line-height: 0;
+    }
+  }
 
   @media only screen and (max-width: 500px) {
     bottom: 18%;
-    left: 0;
-    width: 100vw;
+    /* left: 0;
+    width: 100vw; */
     h1 {
-      font-size: 5px;
-      letter-spacing: 0;
+      font-size: 1rem;
+      letter-spacing: 0.75rem;
       line-height: 0;
+    }
+  }
+
+  @media only screen and (max-width: 450px) {
+    bottom: 18%;
+    h1 {
+      font-size: 1rem;
+      letter-spacing: 0.5rem;
+      line-height: 0;
+    }
+  }
+
+  @media only screen and (max-width: 400px) {
+    margin-left: auto;
+    margin-right: auto;
+    left: 0%;
+    right: 0;
+    h1 {
+      font-size: 1rem;
+      letter-spacing: 0.5rem;
     }
   }
 `;
