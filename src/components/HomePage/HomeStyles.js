@@ -131,6 +131,14 @@ export const FirstNameContainer = styled(motion.div)`
       letter-spacing: 0.75rem;
     }
   }
+
+  @media only screen and (max-width: 400px) {
+    left: 0%;
+    h1 {
+      font-size: 1rem;
+      letter-spacing: 0.3rem;
+    }
+  }
 `;
 
 export const SecondNameContainer = styled(motion.div)`
@@ -210,7 +218,6 @@ export const SecondNameContainer = styled(motion.div)`
       margin-right: auto;
       left: 0;
       right: 0;
-      width: 100vw;
       line-height: 0;
       max-width: 80vw;
     }
@@ -244,6 +251,18 @@ export const SecondNameContainer = styled(motion.div)`
     h1 {
       font-size: 1rem;
       letter-spacing: 0.5rem;
+    }
+  }
+
+  @media only screen and (max-width: 375px) {
+    margin-left: 0;
+    margin-right: 0;
+    left: 0;
+    right: 0;
+    h1 {
+      font-size: 1rem;
+      letter-spacing: 0.2rem;
+      max-width: 100vw;
     }
   }
 `;
