@@ -107,7 +107,7 @@ const Logo = () => {
       .from(outlineLogoRef7.current, svgStrokeProps, animationOverlap)
       .from(outlineLogoRef8.current, svgStrokeProps, animationOverlap)
       .from(outlineLogoRef9.current, svgStrokeProps, animationOverlap);
-  }, []);
+  });
 
   return (
     <>

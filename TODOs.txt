@@ -38,6 +38,7 @@ make favicon
 make svgs responsive
 
 TODO
+place images in static
 make site responsive
 	- home done
 	- Bunteduffem not quite - suggest splitting each page into 2
