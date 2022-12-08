@@ -124,7 +124,7 @@ export const FirstNameContainer = styled(motion.div)`
   @media only screen and (max-width: 400px) {
     margin-left: auto;
     margin-right: auto;
-    left: 10%;
+    left: 40%;
     right: 0;
     h1 {
       font-size: 1rem;
@@ -134,6 +134,22 @@ export const FirstNameContainer = styled(motion.div)`
 
   @media only screen and (max-width: 400px) {
     left: 0%;
+    h1 {
+      font-size: 1rem;
+      letter-spacing: 0.3rem;
+    }
+  }
+
+  @media only screen and (max-width: 400px) {
+    left: 0%;
+    h1 {
+      font-size: 1rem;
+      letter-spacing: 0.3rem;
+    }
+  }
+
+  @media only screen and (max-width: 395px) {
+    left: 13.5%;
     h1 {
       font-size: 1rem;
       letter-spacing: 0.3rem;
@@ -251,6 +267,13 @@ export const SecondNameContainer = styled(motion.div)`
     h1 {
       font-size: 1rem;
       letter-spacing: 0.5rem;
+    }
+  }
+
+  @media only screen and (max-width: 395px) {
+    h1 {
+      font-size: 1rem;
+      letter-spacing: 0.3rem;
     }
   }
 
