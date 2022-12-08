@@ -24,7 +24,7 @@ const MarqueeContainer = styled.section`
     color: #808080 !important;
     font-size: 7rem;
     font-weight: 100;
-    font-family: "Roboto Slab", sans-serif;
+    font-family: "Gilda Display", sans-serif;
     text-transform: uppercase;
     letter-spacing: 0.8rem;
   }
@@ -41,7 +41,6 @@ const MarqueeContainer = styled.section`
       letter-spacing: 0rem;
     }
   }
- 
 `;
 
 const AboutSection = () => {
