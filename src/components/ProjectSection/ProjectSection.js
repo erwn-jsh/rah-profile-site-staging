@@ -32,6 +32,7 @@ const ProjectSect = styled.section`
     letter-spacing: 1.5rem;
     line-height: 5rem;
     margin-top: 200px;
+    margin-bottom: 50px;
   }
 
   @media only screen and (max-width: 768px) {
