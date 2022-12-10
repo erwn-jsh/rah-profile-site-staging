@@ -7,6 +7,66 @@ export const HomePageWrapper = styled.div`
   padding-top: 20px;
 `;
 
+export const NameContainer = styled.div`
+  position: absolute;
+  bottom: 75px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  h1 {
+    color: #ffffff !important;
+    font-size: 2rem;
+    font-weight: 100;
+    margin-bottom: 10vh;
+    padding-left: 72px;
+    text-transform: uppercase;
+    font-family: "Josefin Sans", sans-serif;
+    letter-spacing: 1.5rem;
+  }
+
+  @media only screen and (max-width: 975px) {
+    bottom: 150px;
+    h1 {
+      font-size: 1.5rem;
+      letter-spacing: 1.2rem;
+    }
+  }
+
+  @media only screen and (max-width: 825px) {
+    top: 500px;
+    h1 {
+      font-size: 1rem;
+      letter-spacing: 1rem;
+    }
+  }
+
+  @media only screen and (max-width: 675px) {
+    left: -50px;
+    h1 {
+      font-size: 1rem;
+      letter-spacing: 0.5rem;
+    }
+  }
+
+  @media only screen and (max-width: 430px) {
+    left: -60px;
+    h1 {
+      font-size: 1rem;
+      letter-spacing: 0.2em;
+    }
+  }
+
+  @media only screen and (max-width: 325px) {
+    left: -80px;
+    h1 {
+      font-size: 1rem;
+      letter-spacing: 0.2em;
+    }
+  }
+`;
+
 export const FirstNameContainer = styled(motion.div)`
   position: absolute;
   bottom: 75px;

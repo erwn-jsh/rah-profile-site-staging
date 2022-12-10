@@ -14,7 +14,13 @@ const LogoContainer = styled.div`
   height: 344px;
   position: absolute;
   top: 100px;
-  left: 60px;
+  /* left: 60px; */
+
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
 
   svg {
     width: 100%;
@@ -22,7 +28,18 @@ const LogoContainer = styled.div`
     bottom: 0;
   }
 
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 975px) {
+    width: 414px;
+    height: 258px;
+  }
+
+  @media only screen and (max-width: 825px) {
+    top: 250px;
+    width: 276px;
+    height: 172px;
+  }
+
+  /* @media only screen and (max-width: 768px) {
     width: 414px;
     height: 258px;
   }
@@ -54,7 +71,7 @@ const LogoContainer = styled.div`
     top: 30%;
     width: 276px;
     height: 172px;
-  }
+  } */
 `;
 
 const Logo = () => {

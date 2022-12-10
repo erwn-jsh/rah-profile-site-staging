@@ -8,6 +8,7 @@ import {
   FirstNameContainer,
   SecondNameContainer,
   Header,
+  NameContainer,
 } from "./HomeStyles";
 import ExploreButton from "../Menu/ExploreButton/ExploreButton";
 import AboutSection from "../AboutSection/AboutSection";
@@ -54,7 +55,7 @@ const Home = () => {
         <MenuManager>
           <Menu />
           <HomePageWrapper id="Home">
-            <Header
+            {/* <Header
               ref={contentRef}
               animate={animation}
               initial="hidden"
@@ -64,14 +65,14 @@ const Home = () => {
                 The Art of Storytelling
                 <br /> in Fashion
               </p>
-            </Header>
+            </Header> */}
             <LogoWhite
               ref={contentRef}
               animate={animation}
               initial="hidden"
               variants={variants}
             />
-            <FirstNameContainer
+            {/* <FirstNameContainer
               ref={contentRef}
               animate={animation}
               initial="hidden"
@@ -86,7 +87,10 @@ const Home = () => {
               variants={variants}
             >
               <h1>Andrew Hiyas</h1>
-            </SecondNameContainer>
+            </SecondNameContainer> */}
+            <NameContainer>
+              <h1>Robert Andrew Hiyas</h1>
+            </NameContainer>
             <ExploreButton
               ref={contentRef}
               animate={animation}
