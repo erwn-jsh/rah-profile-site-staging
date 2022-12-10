@@ -105,6 +105,25 @@ const DownArrow3 = styled.span`
   animation-iteration-count: infinite;
 `;
 
+const Container = styled.div`
+  margin-right: 0px;
+  margin-left: 0px;
+  margin-bottom: 8rem;
+  width: 100%;
+  font-family: "Josefin Sans", serif;
+  font-weight: 100;
+
+  h4 {
+    text-align: center;
+  }
+
+  p {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: -2px;
+  }
+`;
+
 const DownWhiteArrow = () => {
   return (
     <>
@@ -113,7 +132,7 @@ const DownWhiteArrow = () => {
         src="https://embed.lottiefiles.com/animation/62604"
       ></iframe> */}
 
-      <MouseScroll>
+      {/* <MouseScroll>
         <Mouse>
           <MouseIn></MouseIn>
         </Mouse>
@@ -122,7 +141,13 @@ const DownWhiteArrow = () => {
           <DownArrow2></DownArrow2>
           <DownArrow3></DownArrow3>
         </div>
-      </MouseScroll>
+      </MouseScroll> */}
+
+      <Container>
+        <h4>scroll</h4>
+        <p>|</p>
+        <p>|</p>
+      </Container>
     </>
   );
 };
