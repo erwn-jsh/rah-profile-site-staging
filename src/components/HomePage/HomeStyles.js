@@ -157,7 +157,7 @@ export const FirstNameContainer = styled(motion.div)`
   }
 
   @media only screen and (max-width: 375px) {
-    left: 11.5%;
+    left: 10.5%;
     h1 {
       font-size: 1rem;
       letter-spacing: 0.3rem;
