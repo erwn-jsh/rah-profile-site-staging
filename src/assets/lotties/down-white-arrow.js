@@ -115,6 +115,8 @@ const Container = styled.div`
 
   h4 {
     text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
   }
 
   p {
