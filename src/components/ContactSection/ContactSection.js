@@ -121,7 +121,7 @@ const ContactSection = () => {
   return (
     <>
       <ContactSect>
-        <DownWriteArrow />
+        {/* <DownWriteArrow /> */}
         <ContactSectionTextWrapper>
           <motion.h2
             id="Contact"
