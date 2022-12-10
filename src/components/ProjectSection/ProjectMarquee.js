@@ -7,7 +7,7 @@ const MarqueeContainer = styled.section`
     color: #808080 !important;
     font-size: 7rem;
     font-weight: 100;
-    font-family: "Roboto Slab", sans-serif;
+    font-family: "Gilda Display", serif;
     text-transform: uppercase;
     letter-spacing: 0.8rem;
     /* line-height: 7.5rem; */
