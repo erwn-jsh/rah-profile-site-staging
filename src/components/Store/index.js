@@ -32,6 +32,34 @@ export const IndexWrapper = styled.div`
     text-decoration: underline;
     text-underline-offset: 5px;
   }
+
+  @media only screen and (max-width: 565px) {
+    h2 {
+      font-size: 1rem;
+      letter-spacing: 0.2rem;
+    }
+  }
+
+  @media only screen and (max-width: 450px) {
+    h2 {
+      padding-left: 24px;
+      font-size: 1rem;
+      letter-spacing: 0.2rem;
+    }
+  }
+
+  @media only screen and (max-width: 380px) {
+    h2 {
+      font-size: 0.8rem;
+    }
+  }
+
+  @media only screen and (max-width: 320px) {
+    h2 {
+      padding-left: 12px;
+      font-size: .6rem;
+    }
+  }
 `;
 
 export const MainText = styled(motion.div)`
@@ -47,6 +75,43 @@ export const MainText = styled(motion.div)`
     font-family: "Josefin Sans", sans-serif;
     color: #ffffff !important;
     letter-spacing: 1.5rem;
+  }
+
+  @media only screen and (max-width: 565px) {
+    margin-bottom: 20px;
+    h1 {
+      font-size: 3rem;
+      letter-spacing: 1.5rem;
+    }
+  }
+
+  @media only screen and (max-width: 450px) {
+    margin-bottom: 20px;
+
+    h1 {
+      padding-left: 24px;
+      font-size: 3rem;
+      letter-spacing: 1.5rem;
+    }
+  }
+
+  @media only screen and (max-width: 380px) {
+    margin-bottom: 20px;
+
+    h1 {
+      font-size: 2rem;
+      letter-spacing: 0.7rem;
+    }
+  }
+
+  @media only screen and (max-width: 320px) {
+    margin-bottom: 20px;
+
+    h1 {
+      font-size: 1.5rem;
+      letter-spacing: 0.7rem;
+      padding-left: 12px;
+    }
   }
 `;
 
