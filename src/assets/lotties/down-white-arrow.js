@@ -124,6 +124,25 @@ const Container = styled.div`
     font-size: 2rem;
     margin-bottom: -2px;
   }
+
+  @media only screen and (max-width: 768px) {
+    h4 {
+      font-size: 0.7rem;
+      margin-bottom: 1rem;
+    }
+    p {
+      font-size: 0.7rem;
+    }
+  }
+  @media only screen and (max-width: 320px) {
+    h4 {
+      font-size: 0.5rem;
+      margin-bottom: 0.7rem;
+    }
+    p {
+      font-size: 0.5rem;
+    }
+  }
 `;
 
 const DownWhiteArrow = () => {
