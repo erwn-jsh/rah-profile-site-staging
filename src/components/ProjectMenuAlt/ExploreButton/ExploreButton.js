@@ -8,7 +8,7 @@ const XploreBtn = styled.button`
   position: fixed;
   right: 96px;
   bottom: 12vh;
-  background-color: ${(props) => (props.open ? "black" : "transparent")};
+  background-color: ${(props) => (props.open ? "white" : "transparent")};
   text-transform: uppercase;
   border: 1px solid #000;
   border-radius: 5px;
